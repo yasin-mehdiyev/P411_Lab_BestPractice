@@ -1,0 +1,88 @@
+
+
+#portfolio .item{
+    margin: 0 -15px;
+    position: relative;
+}
+
+#portfolio .item .item-photo-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    background-color: rgba(244, 98, 58, 0.9);
+    transition: all .3s ease-in-out;
+}
+
+#portfolio .item:hover .item-photo-hover{
+    opacity: 1;
+}
+
+#portfolio .item .item-photo-hover h4{
+    font-size: 15px;
+    color: #bdbdbdb8;
+}
+
+#portfolio .item .item-photo-hover p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#contact{
+    padding: 70px 0px;
+}
+
+#contact .title{
+    text-align: center;
+}
+
+#contact .title h3{
+    
+}
+
+#contact .title .divider{
+    background-color: rgba(244, 98, 58, 0.9);
+    max-width: 55px;
+    height: 2px;
+}
+
+#contact .title p{
+    max-width: 40%;
+}
+
+#contact .form-group input{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#contact .form-group input:focus, #contact .form-group textarea:focus{
+    border-color: blue!important;
+    box-shadow: 0 0 0px transparent!important;
+}
+
+#contact .btn-custom{
+    width: 100%;
+    background: #f4623a;
+    color: #fff;
+    padding: 15px 0px;
+    border-radius: 50px;
+    border: none;
+    opacity: 0.6;
+}
+
+#contact .social-contact{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+#contact .social-contact .fal{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
