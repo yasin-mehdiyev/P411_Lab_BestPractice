@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-style {
+    border: 1px solid #333;
+}
+
+.padding-4{
+    padding: 26.5px 0px;
+}
+
+.padding-5{
+    padding: 25px 0px;
+}
+
+.padding-6{
+    padding: 35px 0px;
+}
+
+.padding-7{
+    padding: 45px 0px;
+}
+
+.padding-8{
+    padding: 55px 0px;
+}
+
+header .logo {
+    float: left;
+    width: 40%;
+}
+
+header .promo1 {
+    float: left;
+    width: 60%;
+}
+
+header::after, .content-down::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col-4 {
+    float: left;
+    width: 33.3%;
+}
