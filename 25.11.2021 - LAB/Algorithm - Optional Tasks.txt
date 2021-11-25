@@ -1,0 +1,9 @@
+1) Verilmish ededin sade eded olub olmadigini yoxlayan alqoritm qurun:
+   Example1: Input kimi 11 daxil edilir => Output: 11 ededi sade ededdir 
+   Example2: Input kimi 12 daxil edilir => Output: 12 ededi murekkeb ededdir.
+
+2) Size bir array verilir hemin arrayin daxilinde olan sade ededlerin cemini tapan proqram yazin:
+   Example: Input kimi verilir: const array = [11,13,12,21,24,29] => Output: 53
+
+3) Size bir eded verilir.Verilmish hemin ededin tam ve kesr hisselerinin hasilini tapan proqram yazin:
+   Example: Input kimi verilir: let num = 6.2 => Output: 12
